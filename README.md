@@ -113,6 +113,17 @@ console.log( desc );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/define-property`][@stdlib/utils/define-property]: define (or modify) an object property.
+-   [`@stdlib/utils/define-properties`][@stdlib/utils/define-properties]: define (and/or modify) object properties.
+-   [`@stdlib/utils/property-descriptor`][@stdlib/utils/property-descriptor]: return a property descriptor for an object's own property.
+-   [`@stdlib/utils/property-descriptors-in`][@stdlib/utils/property-descriptors-in]: return an object's own and inherited property descriptors.
+-   [`@stdlib/utils/property-names`][@stdlib/utils/property-names]: return an array of an object's own enumerable and non-enumerable property names.
+-   [`@stdlib/utils/property-symbols`][@stdlib/utils/property-symbols]: return an array of an object's own symbol properties.
+
 </section>
 
 <!-- /.related -->
@@ -174,7 +185,21 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-property-descriptors/main/LICENSE
 
+<!-- <related-links> -->
+
+[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property
+
+[@stdlib/utils/define-properties]: https://github.com/stdlib-js/utils-define-properties
+
 [@stdlib/utils/property-descriptor]: https://github.com/stdlib-js/utils-property-descriptor
+
+[@stdlib/utils/property-descriptors-in]: https://github.com/stdlib-js/utils-property-descriptors-in
+
+[@stdlib/utils/property-names]: https://github.com/stdlib-js/utils-property-names
+
+[@stdlib/utils/property-symbols]: https://github.com/stdlib-js/utils-property-symbols
+
+<!-- </related-links> -->
 
 </section>
 
