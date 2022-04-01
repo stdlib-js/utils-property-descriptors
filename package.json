@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/utils-property-descriptors",
+  "version": "0.0.0",
+  "description": "Return an object's own property descriptors.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-property-descriptors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "object",
+    "obj",
+    "own",
+    "property",
+    "properties",
+    "props",
+    "prop",
+    "descriptor",
+    "descriptors",
+    "desc",
+    "getownpropertydescriptors",
+    "es7"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
