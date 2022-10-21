@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import propertyDescriptors from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-descriptors@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-property-descriptors/tags). For example,
+
+```javascript
 import propertyDescriptors from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-descriptors@v0.0.8-esm/index.mjs';
 ```
 
@@ -77,7 +82,7 @@ var desc = propertyDescriptors( obj );
 <script type="module">
 
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
-import propertyDescriptors from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-descriptors@v0.0.8-esm/index.mjs';
+import propertyDescriptors from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-descriptors@esm/index.mjs';
 
 function Foo() {
     this.beep = 'boop';
