@@ -24,38 +24,30 @@ limitations under the License.
 
 > Return an object's own [property descriptors][@stdlib/utils/property-descriptor].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-property-descriptors
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-propertyDescriptors = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-descriptors@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var propertyDescriptors = require( 'path/to/vendor/umd/utils-property-descriptors/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-descriptors@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.propertyDescriptors;
-})();
-</script>
+var propertyDescriptors = require( '@stdlib/utils-property-descriptors' );
 ```
 
 #### propertyDescriptors( obj )
@@ -94,14 +86,9 @@ var desc = propertyDescriptors( obj );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-descriptors@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var defineProperty = require( '@stdlib/utils-define-property' );
+var propertyDescriptors = require( '@stdlib/utils-property-descriptors' );
 
 function Foo() {
     this.beep = 'boop';
@@ -124,11 +111,6 @@ var desc = propertyDescriptors( obj );
 
 console.log( desc );
 // => { 'beep': {...}, 'a': {...}, 'baz': {...} }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -143,12 +125,12 @@ console.log( desc );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/define-property`][@stdlib/utils/define-property]</span><span class="delimiter">: </span><span class="description">define (or modify) an object property.</span>
--   <span class="package-name">[`@stdlib/utils/define-properties`][@stdlib/utils/define-properties]</span><span class="delimiter">: </span><span class="description">define (and/or modify) object properties.</span>
--   <span class="package-name">[`@stdlib/utils/property-descriptor`][@stdlib/utils/property-descriptor]</span><span class="delimiter">: </span><span class="description">return a property descriptor for an object's own property.</span>
--   <span class="package-name">[`@stdlib/utils/property-descriptors-in`][@stdlib/utils/property-descriptors-in]</span><span class="delimiter">: </span><span class="description">return an object's own and inherited property descriptors.</span>
--   <span class="package-name">[`@stdlib/utils/property-names`][@stdlib/utils/property-names]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable and non-enumerable property names.</span>
--   <span class="package-name">[`@stdlib/utils/property-symbols`][@stdlib/utils/property-symbols]</span><span class="delimiter">: </span><span class="description">return an array of an object's own symbol properties.</span>
+-   <span class="package-name">[`@stdlib/utils-define-property`][@stdlib/utils/define-property]</span><span class="delimiter">: </span><span class="description">define (or modify) an object property.</span>
+-   <span class="package-name">[`@stdlib/utils-define-properties`][@stdlib/utils/define-properties]</span><span class="delimiter">: </span><span class="description">define (and/or modify) object properties.</span>
+-   <span class="package-name">[`@stdlib/utils-property-descriptor`][@stdlib/utils/property-descriptor]</span><span class="delimiter">: </span><span class="description">return a property descriptor for an object's own property.</span>
+-   <span class="package-name">[`@stdlib/utils-property-descriptors-in`][@stdlib/utils/property-descriptors-in]</span><span class="delimiter">: </span><span class="description">return an object's own and inherited property descriptors.</span>
+-   <span class="package-name">[`@stdlib/utils-property-names`][@stdlib/utils/property-names]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable and non-enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils-property-symbols`][@stdlib/utils/property-symbols]</span><span class="delimiter">: </span><span class="description">return an array of an object's own symbol properties.</span>
 
 </section>
 
@@ -225,17 +207,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property/tree/umd
+[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property
 
-[@stdlib/utils/define-properties]: https://github.com/stdlib-js/utils-define-properties/tree/umd
+[@stdlib/utils/define-properties]: https://github.com/stdlib-js/utils-define-properties
 
-[@stdlib/utils/property-descriptor]: https://github.com/stdlib-js/utils-property-descriptor/tree/umd
+[@stdlib/utils/property-descriptor]: https://github.com/stdlib-js/utils-property-descriptor
 
-[@stdlib/utils/property-descriptors-in]: https://github.com/stdlib-js/utils-property-descriptors-in/tree/umd
+[@stdlib/utils/property-descriptors-in]: https://github.com/stdlib-js/utils-property-descriptors-in
 
-[@stdlib/utils/property-names]: https://github.com/stdlib-js/utils-property-names/tree/umd
+[@stdlib/utils/property-names]: https://github.com/stdlib-js/utils-property-names
 
-[@stdlib/utils/property-symbols]: https://github.com/stdlib-js/utils-property-symbols/tree/umd
+[@stdlib/utils/property-symbols]: https://github.com/stdlib-js/utils-property-symbols
 
 <!-- </related-links> -->
 
