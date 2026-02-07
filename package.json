@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-property-descriptors",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Return an object's own property descriptors.",
   "license": "Apache-2.0",
   "author": {
@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/object-ctor": "^0.2.1",
+    "@stdlib/object-ctor": "^0.2.2",
     "@stdlib/utils-define-property": "^0.2.5",
-    "@stdlib/utils-property-descriptor": "^0.2.2",
-    "@stdlib/utils-property-names": "^0.2.2",
-    "@stdlib/utils-property-symbols": "^0.2.2"
+    "@stdlib/utils-property-descriptor": "^0.2.3",
+    "@stdlib/utils-property-names": "^0.2.3",
+    "@stdlib/utils-property-symbols": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-has-proxy-support": "^0.2.2",
-    "@stdlib/assert-has-symbol-support": "^0.2.2",
+    "@stdlib/assert-has-proxy-support": "^0.2.3",
+    "@stdlib/assert-has-symbol-support": "^0.2.3",
     "@stdlib/assert-is-plain-object": "^0.2.2",
-    "@stdlib/proxy-ctor": "^0.2.2",
+    "@stdlib/proxy-ctor": "^0.2.3",
     "@stdlib/random-base-randu": "^0.2.2",
     "@stdlib/symbol-ctor": "^0.2.3",
     "proxyquire": "^2.0.0",
