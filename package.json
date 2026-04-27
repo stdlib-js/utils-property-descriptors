@@ -49,6 +49,7 @@
     "@stdlib/assert-is-plain-object": "^0.2.3",
     "@stdlib/proxy-ctor": "^0.2.3",
     "@stdlib/random-base-randu": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/symbol-ctor": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
